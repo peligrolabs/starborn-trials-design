@@ -77,4 +77,16 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 
 ---
 
+### 5. Narrative Frame
+
+For Starborn Trials game prototype only:
+> In the wake of a cosmic apocalypse, the Aether’s sparks scatter into World-Seeds. One fragment—you—awakens in a fractured world of fire and shadow. You must survive the Fire Gauntlet to rekindle the Flame of the Morningstar.
+
+---
+
+### 6. Milestone-Based Development Timeline
+<b>Note</b>: These are suggested timelines for developers working on AetherCore.
+
+
+
 Copyright &copy; 2025 [Peligro Labs, LLC](https://peligrolabs.com/).
