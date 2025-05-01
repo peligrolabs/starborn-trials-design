@@ -79,15 +79,13 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 
 ### 5. Narrative Frame
 
-<b>Note</b>: For Starborn Trials game prototype only:
-
 > <i>In the wake of a cosmic apocalypse, the Aether’s sparks scatter into World-Seeds. One fragment—you—awakens in a fractured world of fire and shadow. You must survive the Fire Gauntlet to rekindle the Flame of the Morningstar.</i>
+
+<b>Note</b>: For Starborn Trials game prototype only.
 
 ---
 
 ### 6. Milestone-Based Development Timeline
-
-<b>Note</b>: These are suggested timelines for developers working on AetherCore.
 
 | Phase  | Goals  | Duration  |
 | ------------- | ------------- | ------------- |
@@ -98,6 +96,8 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 | 5. World-Server Seed System  | Procedural map logic, enter/exit buildings  | 2–3 weeks  |
 | 6. Lobby Infrastructure  | MVP client/server architecture, server switching  | 1–2 weeks  |
 | 7. Final Integration & Playtesting  | Polish, bugfixes, stress tests  | 1 week  |
+
+<b>Note</b>: These are suggested timelines for developers working on AetherCore.
 
 ---
 
