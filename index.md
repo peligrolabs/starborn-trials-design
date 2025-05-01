@@ -8,7 +8,6 @@ nav_order: 1
 {: .no_toc .fs-9 }
 
 This document makes up the <i>Starborn Trials Game Design Document</i> which is the game prototype design used to inform implementation strategies for the architecture of Peligro Labs' [AetherCore](https://github.com/peligrolabs/AetherCore) game framework.
-
 {: .fs-6 .fw-300 }
 
 <p align="left">
