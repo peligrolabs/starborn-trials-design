@@ -53,7 +53,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 
 | System  | Details |
 | ------------- | ------------- |
-| Day/Night System  | Influences ambient creatures, combat difficulty, available quests  |
+| Day / Night System  | Influences ambient creatures, combat difficulty, available quests  |
 | World Zoning (Octograph)  | World split into 8 navigable regions—each zone with unique traits  |
 | Enterable Buildings  | Scene transitions with persistence  |
 | Open World Map  | 2D tile-based with procedural map seeded per World-Server  |
@@ -63,6 +63,17 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 | Dialogue System  | Branching, emotion-tagged NPC interactions using a chosen plugin  |
 | AI (BeeHave Plugin)  | For both enemies and NPC behavior trees  |
 | UI & Inventory Framework  | Modular UI skin; items, blessings, and relic management  |
+
+---
+
+### 4. Network Infrastructure
+
+| Layer  | Tech Stack |
+| ------------- | ------------- |
+| Lobby Server  | .NET Core / Rust / Go  |
+| Lobby Client  | Godot (preferred) or React Native  |
+| Game Server  | Godot (preferred) or .NET Core / Rust / Go  |
+| Game Client  | Godot  |
 
 ---
 
