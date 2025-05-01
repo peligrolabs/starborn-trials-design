@@ -4,6 +4,14 @@ title: Home
 nav_order: 1
 ---
 
+<p align="center">
+    <img
+        alt="Starborn Trials Logo"
+        src="./assets/logos/starnorn-trials-logo"
+        width="300"
+    />
+</p>
+
 ### Overview
 {: .no_toc .fs-9 }
 
