@@ -51,10 +51,18 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 
 ### 3. Core Systems for Prototype
 
-| First Header  | Second Header |
+| System  | Details |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Day/Night System  | Influences ambient creatures, combat difficulty, available quests  |
+| World Zoning (Octograph)  | World split into 8 navigable regions—each zone with unique traits  |
+| Enterable Buildings  | Scene transitions with persistence  |
+| Open World Map  | 2D tile-based with procedural map seeded per World-Server  |
+| World-Server Seed Logic  | Each server runs a persistent, procedurally-generated map until a scheduled “apocalypse”  |
+| Combat System  | Combo- and dodge-heavy; spiritual affinities; inspiration from Dragalia Lost & Genshin Impact  |
+| RPG Mechanics  | Ability loadouts, gear upgrades, stat growth (Xenoblade/Maple Story influence)  |
+| Dialogue System  | Branching, emotion-tagged NPC interactions using a chosen plugin  |
+| AI (BeeHave Plugin)  | For both enemies and NPC behavior trees  |
+| UI & Inventory Framework  | Modular UI skin; items, blessings, and relic management  |
 
 ---
 
