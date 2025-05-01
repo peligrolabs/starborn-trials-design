@@ -101,4 +101,8 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 
 ---
 
+### 7. Architecture Diagrams
+
+---
+
 Copyright &copy; 2025 [Peligro Labs, LLC](https://peligrolabs.com/).
