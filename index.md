@@ -4,13 +4,13 @@ title: Home
 nav_order: 1
 ---
 
-# Starborn Trials Design
+### Overview
 {: .no_toc .fs-9 }
 
 Starborn Trials Game Design Document. The game prototype design used to inform implementation strategies for the architecture of Peligro Labs' AetherCore game framwork.
 {: .fs-6 .fw-300 }
 
-[Purpose](./purpose.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Architecture](./architecture.html){: .btn .fs-5 .mb-4 .mb-md-0 }
+<!-- [Purpose](./purpose.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Architecture](./architecture.html){: .btn .fs-5 .mb-4 .mb-md-0 } -->
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -20,7 +20,7 @@ Starborn Trials Game Design Document. The game prototype design used to inform i
 
 ---
 
-## 1. Purpose of the Prototype
+### 1. Purpose of the Prototype
 
 To begin construction of the AetherCore Game Framework, designed to power Quest for the Morningstar, Trinity Fighters, Cyber Surfers, and future titles by:
 - Establishing core modular systems
@@ -30,7 +30,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 
 ---
 
-## 2. Genre & Core Loop
+### 2. Genre & Core Loop
 
 <b>Genre</b>: 2D top-down action RPG<br>
 <b>Loop</b>: Explore → Fight → Speak → Grow → Traverse
@@ -38,3 +38,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 - Combat mythic beasts, uncover relics, dialogue with spirit-NPCs
 - Receive temporary “Blessings of the Aether” that alter combat/play
 - Reach the Ember Chamber, survive the Trial
+
+---
+
+Copyright &copy; 2025 [Peligro Labs, LLC](https://peligrolabs.com/).
