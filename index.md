@@ -109,7 +109,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
     <img
         alt="AetherCore Network Infrastructure Diagram"
         src="./assets/diagrams/AetherCore-network-infra-diagram.png"
-        width="300"
+        width="600"
     />
 </p>
 
@@ -119,7 +119,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
     <img
         alt="AetherCore Core Systems Diagram"
         src="./assets/diagrams/AetherCore-core-systems-diagram.png"
-        width="300"
+        width="600"
     />
 </p>
 
@@ -129,7 +129,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
     <img
         alt="AetherCore Player Interaction & Game World Layer Diagram"
         src="./assets/diagrams/AetherCore-player-interaction-and-game-world-layer-diagram.png"
-        width="300"
+        width="600"
     />
 </p>
 
@@ -139,7 +139,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
     <img
         alt="AetherCore Persistent Storage & Save/Load Architecture Diagram"
         src="./assets/diagrams/AetherCore-storage-and-save-state-diagram.png"
-        width="300"
+        width="600"
     />
 </p>
 
