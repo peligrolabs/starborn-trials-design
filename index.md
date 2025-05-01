@@ -16,7 +16,7 @@ Starborn Trials Game Design Document. The game prototype design used to inform i
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+{:toc ol { list-style: disc; }}
 
 ---
 
