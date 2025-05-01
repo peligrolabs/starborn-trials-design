@@ -1,4 +1,10 @@
-### 1. Purpose of the Prototype
+---
+layout: default
+title: Purpose
+nav_order: 2
+---
+
+# 1. Purpose of the Prototype
 
 To begin construction of the AetherCore Game Framework, designed to power Quest for the Morningstar, Trinity Fighters, Cyber Surfers, and future titles by:
 - Establishing core modular systems
