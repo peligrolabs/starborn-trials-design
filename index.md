@@ -18,6 +18,8 @@ This document makes up the <i>Starborn Trials Game Design Document</i> which is 
     />
 </p>
 
+> <b>Figure 1</b>: Starborn Trials logo.
+
 <!-- [Purpose](./purpose.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Architecture](./architecture.html){: .btn .fs-5 .mb-4 .mb-md-0 } -->
 
 ### Table of Contents
@@ -102,6 +104,46 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 ---
 
 ### 7. Architecture Diagrams
+
+<p align="left">
+    <img
+        alt="AetherCore Network Infrastructure Diagram"
+        src="./assets/diagrams/AetherCore-network-infra-diagram.png"
+        width="300"
+    />
+</p>
+
+> <b>Figure 2</b>: Lobby Server manages world-server routing, player profiles, and matchmaking. Game Server handles in-game logic per persistent world-server seed.
+
+<p align="left">
+    <img
+        alt="AetherCore Core Systems Diagram"
+        src="./assets/diagrams/AetherCore-core-systems-diagram.png"
+        width="300"
+    />
+</p>
+
+> <b>Figure 3</b>: These persistent systems form the foundation of the AetherCore game framework, enabling procedurally generated worlds, interactive NPCs, combat, and dynamic behavior.
+
+<p align="left">
+    <img
+        alt="AetherCore Player Interaction & Game World Layer Diagram"
+        src="./assets/diagrams/AetherCore-player-interaction-and-game-world-layer-diagram.png"
+        width="300"
+    />
+</p>
+
+> <b>Figure 4</b>: This layer defines the visible, touchable, and explorable world of Aether. All player-facing systems—characters, enemies, professions, interactions, and UI—reside here.
+
+<p align="left">
+    <img
+        alt="AetherCore Persistent Storage & Save/Load Architecture Diagram"
+        src="./assets/diagrams/AetherCore-storage-and-save-state-diagram.png"
+        width="300"
+    />
+</p>
+
+> <b>Figure 5</b>: This layer stores all persistent information across sessions including player states, world evolution, relationship trees, timeline-linked events as well as players' skill, level, & professions progression.
 
 ---
 
