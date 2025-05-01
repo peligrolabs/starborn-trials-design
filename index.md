@@ -12,12 +12,29 @@ Starborn Trials Game Design Document. The game prototype design used to inform i
 
 [Purpose](./purpose.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Architecture](./architecture.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-<!-- [See Examples](#examples){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Build Instructions](https://jjwall.github.io/BoardhouseTS/build.html){: .btn .fs-5 .mb-4 .mb-md-0 } -->
-
-<!-- ## Table of contents
+## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc} -->
+{:toc}
 
 ---
+
+## 1. Purpose of the Prototype
+
+To begin construction of the AetherCore Game Framework, designed to power Quest for the Morningstar, Trinity Fighters, Cyber Surfers, and future titles by:
+- Establishing core modular systems
+- Testing plug-in integration (BeeHave, Dialogue)
+- Proving architectural scalability for MMO-lite infrastructure
+- Serving as an “Initiation Game” that captures mythos and mechanics
+
+---
+
+## 2. Genre & Core Loop
+
+<b>Genre</b>: 2D top-down action RPG<br>
+<b>Loop</b>: Explore → Fight → Speak → Grow → Traverse
+- Unlock secrets of a single World-Server Seed Map
+- Combat mythic beasts, uncover relics, dialogue with spirit-NPCs
+- Receive temporary “Blessings of the Aether” that alter combat/play
+- Reach the Ember Chamber, survive the Trial
