@@ -105,40 +105,48 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 
 ### 7. Architecture Diagrams
 
+#### AetherCore - Network Architecture
+
 <p align="left">
     <img
         alt="AetherCore Network Infrastructure Diagram"
-        src="./assets/diagrams/AetherCore-network-infra-diagram.png"
+        src="./assets/diagrams/AetherCore-network-infra-diagram-cropped.jpg"
         width="600"
     />
 </p>
 
 > <b>Figure 2</b>: Lobby Server manages world-server routing, player profiles, and matchmaking. Game Server handles in-game logic per persistent world-server seed.
 
+#### AetherCore - Core Systems Layer
+
 <p align="left">
     <img
         alt="AetherCore Core Systems Diagram"
-        src="./assets/diagrams/AetherCore-core-systems-diagram.png"
+        src="./assets/diagrams/AetherCore-core-systems-diagram-cropped.jpg"
         width="600"
     />
 </p>
 
 > <b>Figure 3</b>: These persistent systems form the foundation of the AetherCore game framework, enabling procedurally generated worlds, interactive NPCs, combat, and dynamic behavior.
 
+#### AetherCore - Player Interaction & Game World Layer
+
 <p align="left">
     <img
         alt="AetherCore Player Interaction & Game World Layer Diagram"
-        src="./assets/diagrams/AetherCore-player-interaction-and-game-world-layer-diagram.png"
+        src="./assets/diagrams/AetherCore-player-interaction-and-game-world-layer-diagram-cropped.jpg"
         width="600"
     />
 </p>
 
 > <b>Figure 4</b>: This layer defines the visible, touchable, and explorable world of Aether. All player-facing systems—characters, enemies, professions, interactions, and UI—reside here.
 
+#### AetherCore - Storage & Save Architecture
+
 <p align="left">
     <img
         alt="AetherCore Persistent Storage & Save/Load Architecture Diagram"
-        src="./assets/diagrams/AetherCore-storage-and-save-state-diagram.png"
+        src="./assets/diagrams/AetherCore-storage-and-save-state-diagram-cropped.jpg"
         width="600"
     />
 </p>
