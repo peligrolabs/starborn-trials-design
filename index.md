@@ -105,7 +105,19 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
 
 ### 7. Architecture Diagrams
 
-#### AetherCore - Network Architecture
+#### AetherCore - Network Architecture: An Orchestration of Realms
+
+<p align="left">
+    <img
+        alt="AetherCore Full Network Design Diagram"
+        src="./assets/diagrams/AetherCore-full-network-design.png"
+        width="1000"
+    />
+</p>
+
+> <b>Figure 2</b>: This diagram illustrates the distributed network topology of the AetherCore Game Framework—a modular, scalable backend architecture designed for real-time multiplayer gameplay. It delineates the interactions between the Main Server (handling account systems and monetization), Region Servers powered by Agones (spawning dynamic Lobby and World server pods), and the Player Machine. The Game Client communicates via HTTP, WebSockets, and UDP protocols to synchronize world state, leveraging Godot-based instances across zones for seamless gameplay. Persistent storage, backups, and RESTful APIs ensure resilience, modularity, and expansibility for a living virtual cosmos.
+
+#### AetherCore - Network Architecture: Prototype Design
 
 <p align="left">
     <img
@@ -115,7 +127,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
     />
 </p>
 
-> <b>Figure 2</b>: Lobby Server manages world-server routing, player profiles, and matchmaking. Game Server handles in-game logic per persistent world-server seed.
+> <b>Figure 3</b>: Lobby Server manages world-server routing, player profiles, and matchmaking. Game Server handles in-game logic per persistent world-server seed.
 
 #### AetherCore - Core Systems Layer
 
@@ -127,7 +139,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
     />
 </p>
 
-> <b>Figure 3</b>: These persistent systems form the foundation of the AetherCore game framework, enabling procedurally generated worlds, interactive NPCs, combat, and dynamic behavior.
+> <b>Figure 4</b>: These persistent systems form the foundation of the AetherCore game framework, enabling procedurally generated worlds, interactive NPCs, combat, and dynamic behavior.
 
 #### AetherCore - Player Interaction & Game World Layer
 
@@ -139,7 +151,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
     />
 </p>
 
-> <b>Figure 4</b>: This layer defines the visible, touchable, and explorable world of Aether. All player-facing systems—characters, enemies, professions, interactions, and UI—reside here.
+> <b>Figure 5</b>: This layer defines the visible, touchable, and explorable world of Aether. All player-facing systems—characters, enemies, professions, interactions, and UI—reside here.
 
 #### AetherCore - Storage & Save Architecture
 
@@ -151,7 +163,7 @@ To begin construction of the AetherCore Game Framework, designed to power Quest 
     />
 </p>
 
-> <b>Figure 5</b>: This layer stores all persistent information across sessions including player states, world evolution, relationship trees, timeline-linked events as well as players' skill, level, & professions progression.
+> <b>Figure 6</b>: This layer stores all persistent information across sessions including player states, world evolution, relationship trees, timeline-linked events as well as players' skill, level, & professions progression.
 
 ---
 
